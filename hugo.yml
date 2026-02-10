@@ -1,0 +1,64 @@
+baseURL: "https://bavardent.com/"
+title: "Toothpaste Group"
+theme: "PaperMod"
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+  dr:
+    languageName: "دری"
+    weight: 2
+  ps:
+    languageName: "پښتو"
+    weight: 3
+
+params:
+  description: "Toothpaste manufacturing company in Afghanistan"
+  keywords: ["toothpaste", "Afghanistan", "oral care", "manufacturer"]
+  
+  email: "info@bavardent.com"
+  phone: "+93 XXX XXX XXXX"
+  whatsapp: "93XXXXXXXXXX"
+  address: "Kabul, Afghanistan"
+  
+  defaultTheme: light
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  ShowShareButtons: true
+  ShowReadingTime: false
+  displayFullLangName: false
+  
+  homeInfoParams:
+    Title: "Quality Oral Care for Everyone"
+    Content: >
+      Toothpaste Group is a toothpaste manufacturing company in Afghanistan 
+      providing reliable oral care products focused on quality and safety.
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: products
+      name: Products
+      url: /products/
+      weight: 2
+    - identifier: about
+      name: About & Certifications
+      url: /about/
+      weight: 3
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 4
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
